@@ -1,0 +1,282 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     3rd party packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Needed to divide into several files
+\usepackage{import}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{alice2.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{\emph{If everything seems under control, you’re not going fast enough.} – Mario Andretti}                                 % optional, remove / comment the line if not wanted
+
+
+
+%%% Essentials
+\name{Evelinne}{Regnard}
+\address{Rue des Bateliers 10, 93400 Saint-Ouen, France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\mobile{+33~6~23~30~30~03} 
+%%% Social
+\email{e\_regnard@hotmail.com}                               % optional, remove / comment the line if not wanted
+\linkedin{https://www.linkedin.com/in/evelinneregnard/}
+%%% Optionals
+\position{\large{Event Project Manager}}
+\quote{ \large{No matter how good the team or how efficient the methodology, if we're not solving the right problem, the project fails.} – Woody Williams}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Evelinne Regnard~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+\begin{document}
+%%% Make a header for CV with personal data
+\makecvheader
+
+
+
+\cvsection{Language skills}
+\begin{cventries}
+	\cventry
+	{}
+	{Trilingual, I speak the following languages fluently:}
+	{}
+	{}
+	{
+		\begin{cvitems}
+			\item Dutch: Mother tongue
+			\item French: Professional - trilingual
+			\item English: Professional - trilingual
+			\vspace{0.5em}
+			\item German: Working knowledge
+		\end{cvitems}
+	}
+\end{cventries}
+
+%%% Import contents
+	\cvsection{Education}
+	\begin{cventries}
+		
+		\cventry{Bachelor in Event and Project Management}{Karel de Grote Hogeschool}{Antwerp, Belgium}{}{2004-2008}
+		\cventry{Erasmus Marketing and International Business.}{Corvinus University}{Budapest, Hungry}{}{2007-2007}  % arguments 3 to 6 can be left empty
+		\cventry{Economics and Modern Languages}{Mater Salvatoris}{Kapellen, Belgium}{}{1998-2004}  % arguments 3 to 6 can be left empty
+		
+		%	\cventry
+		%	{B.S. in Computer Science and Engineering}
+		%	{POSTECH(Pohang University of Science and Technology)}
+		%	{Pohang, S.Korea}
+		%	{Mar. 2010 - PRESENT}
+		%	{
+		%		\begin{cvitems}
+		%			\item {Got a Chun Shin-Il Scholarship which is given to promising students in CSE Dept.}
+		%		\end{cvitems}
+		%	}
+		
+	\end{cventries}
+
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Event and Project Manager}
+	{British Embassy}
+	{Paris, France}
+	{June 2012 - Now}
+	{
+		\begin{cvitems}  % Description(s) of tasks/responsibilities
+			\item Promote and enhance the UK’s reputation in France through corporate campaigns and prestigious events.
+			\vspace{1em}
+			\item Events and project management: Conceptualisation and management of high value events and projects in line with the economic, cultural and political priorities
+			\item Management: Project team leadership. Generating the flow of ideas and implementing change, working jointly across the organisation to deliver value for money. Mentor and coach to junior staff
+			\item External relations: Optimising the impact of events and partnerships: influencing, public relations and networking
+			\item Partnerships: Identification, negotiation, establishment and management of partnerships with suppliers and key stakeholders in strategic sectors (luxury, music, culture, agro-food, wines and spirits, automotive, finance, department stores, etc.)
+			\item Campaigns: Launch and management of direct and digital marketing and communication campaigns Les Voisins and GREAT			
+		\end{cvitems}
+	}
+
+	\cventry
+	{Key Account Manager}
+	{Proximum Group}
+	{Chaville, France}
+	{July 2010- Dec. 2011}
+	{
+		\begin{cvitems}
+			\item Ensure revenue growth and customer satisfaction, maintaining a long term relationship with accounts and maximising sales opportunities.
+			\item Identify new opportunities and up-sell recurring business offers to international companies. These tailored to complement their strategy and growth through major B2B conferences.
+			\vspace{0.5em}
+			\item Key Account Management: developing, retaining and enhancing loyalty of an international client portfolio of over 5,000 contacts.
+			\item 	Marketing: design and implementation of marketing and communication plan.
+			\item Management: recruitment, training and coaching of international project managers.			
+		\end{cvitems} 
+	}
+	\cventry
+	{Search Manager}
+	{Pixmania}
+	{Gennevilliers, France}
+	{March 2010 - June 2010}
+	{
+		\begin{cvitems}
+			\item Develop Belgian and Dutch markets for a leading European online retailer of electronic goods to maximise sales
+			\vspace{0.5em}
+			\item Search Engine Optimization (SEO) and Search Engine Marketing (SEM)
+			\item Digital Marketing: Tracking site activity and analysing keyword research using Google Analytics. \item Performing competitor SEO research, defining search strategies to achieve business goals.					
+		\end{cvitems} 
+	}
+\end{cventries}
+
+\cvsection{Extracurricular skills}
+\begin{cventries}
+	\cventry
+	{Founder \& Writer}
+	{Soft skills}
+	{???}
+	{....}
+	{
+		\begin{cvitems}
+			\item Previous experience within a client-facing customer focused environment.
+			\item Good contacts within the corporate market, amongst designers, production managers, clients and crew.
+			\item Excellent communication skills – both verbal and written.
+			\item Strong networking skills with the ability to build and maintain strong customer relations
+			\item Self-motivated with the ability to work and develop personally on your own initiative.
+			\item Excellent organisational skills with the ability to prioritise and cope with a demanding workload.
+			\item Demonstrable ability to prepare a proposal to a customer’s outline specification against a budget.
+			\item Attention and accuracy to detail.
+			\item Strong negotiating skills
+			\item Good understanding of Health and Safety working practices
+			\item Financial awareness and business acumen.
+			\item Fluent in Dutch, French and English - both spoken and written
+			\item Good understanding of the Company’s product range and procedures
+			\item Willingness to travel to other PRG locations and venues where required
+			\item Excellent computer skills, AutoCAD would be an advantage.
+		\end{cvitems}
+	}
+	\cventry
+	{Undergraduate Student Reporter}
+	{AhnLab}
+	{S.Korea}
+	{Oct. 2012 - Jul. 2013}
+	{
+		\begin{cvitems}
+			\item {Drafted reports about IT trends and Security issues on AhnLab Company magazine.}
+		\end{cvitems}
+	}
+\end{cventries}
+
+
+
+Client-focused, strong networking skills, business acumen, organised and intuitive, autonomous, team player, creative innovator
+COMPETENCIES
+
+EVENT \& PROJECT MANAGEMENT
+Live events, seminars, trade shows, VIP visits (including those involving official protocol), artist and talent management
+MANAGEMENT
+Project team leadership, mentor and coach, partnership and supplier coordination
+MARKETING AND COMMUNICATION
+Sponsorship and partnerships, brand strategy, public relations...
+SALES
+Ensure revenue growth and customer satisfaction, maintaining a long term relationship with accounts and maximising sales opportunities
+
+
+
+\cvsection{Extracurricular}
+\begin{cventries}
+	\cventry
+	{Core Member \& President at 2013}
+	{PoApper (Developers' Network of POSTECH)}
+	{Pohang, S.Korea}
+	{Jun. 2010 - PRESENT}
+	{
+		\begin{cvitems}
+			\item {Reformed the society focusing on software engineering and building network on and off campus.}
+			\item {Proposed various marketing and network activities to raise awareness.}
+		\end{cvitems}
+	}
+	\cventry
+	{Member}
+	{PLUS (Laboratory for UNIX Security in POSTECH)}
+	{Pohang, S.Korea}
+	{Sep. 2010 - Oct. 2011}
+	{
+		\begin{cvitems}
+			\item {Gained expertise in hacking \& security areas, especially about internal of operating system based on UNIX and several exploit techniques.}
+			\item {Participated on several hacking competition and won a good award.}
+			\item {Conducted periodic security checks on overall IT system as a member of POSTECH CERT.}
+			\item {Conducted penetration testing commissioned by national agency and corporation.}
+		\end{cvitems}
+	}
+	\cventry
+	{Member}
+	{MSSA (Management Strategy Club of POSTECH)}
+	{Pohang, S.Korea}
+	{Sep. 2013 - PRESENT}
+	{
+		\begin{cvitems}
+			\item {Gained knowledge about several business field like Management, Strategy, Financial and marketing from group study.}
+			\item {Gained expertise in business strategy areas and inisght for various industry from weekly industry analysis session.}
+		\end{cvitems}
+	}
+\end{cventries}
+
+
+
+\import{\sectiondir}{honors.tex}
+\import{\sectiondir}{presentation.tex}
+\import{\sectiondir}{writing.tex}
+%\import{\sectiondir}{committees.tex}
+
+\end{document}
