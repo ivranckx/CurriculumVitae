@@ -1,0 +1,87 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[red]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Holly}
+\familyname{Krieger}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{851 S. Morgan}{Chicago, IL 60607}    % optional, remove the line if not wanted
+%\mobile{mobile (optional)}                    % optional, remove the line if not wanted
+\phone{312.996.2132}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{hkrieger@uic.edu}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{"They can kill you, but the legalities of eating you are quite a bit dicier" - David Foster Wallace}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2007--present}{MS, Mathematics (expected 2008)}{University of Illinois at Chicago}{}{\textit{Chicago, IL}}{} %arguments 3 to 6 are optional
+\cventry{2006--2007}{Graduate Study}{Michigan State University}{}{\textit{East Lansing, MI}}{} %arguments 3 to 6 are optional
+\cventry{2001--2006}{BS, Mathematics with High Distinction}{University of Illinois at Urbana-Champaign}{}{\textit{Urbana, IL}}{} %arguments 3 to 6 are optional
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+\section{Experience}
+\subsection{Research}
+\cventry{2007}{Independent Summer Research}{}{Urbana, IL}{}{- Studied approximations of functions in $L_{p}$ spaces for $0 < p < 1$ \newline{}- Supervised by Richard S. Laugesen}                % arguments 3 to 6 are optional
+\cventry{2005}{Undergraduate Research Course}{Urbana, IL}{}{}{- Studied invariant polynomials in several complex variables on subgroups of the unitary group \newline{}- Supervised by Bruce Reznick and John P. D'Angelo}                % arguments 3 to 6 are optional
+\subsection{Teaching}
+\cventry{2007--present}{Graduate Teaching Assistant}{University of Illinois at Chicago}{}{}{Supervised an online section of Beginning Algebra}% arguments 3 to 6 are optional
+\cventry{2006--2007}{Graduate Teaching Assistant}{Michigan State University}{}{}{Created and taught stand-alone courses in Business Calculus and Mathematics for Teachers}% arguments 3 to 6 are optional
+\cventry{2004--2006}{Undergraduate Teaching Assistant}{University of Illinois at Urbana-Champaign}{}{}{Taught a discussion section for Calculus I}% arguments 3 to 6 are optional
+
+\section{Languages}
+\cvlanguage{Icelandic}{reading proficient}{language classes taken at H\'{a}sk\'{o}la \'{I}slands, Reykjav\'{i}k}
+\cvlanguage{Italian}{reading proficient}{language classes taken at University of Illinois}
+%\cvlanguage{language 3}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvcomputer{Math Packages}{Mathematica, Matlab}{Programming Languages}{Java, C++}
+
+\section{Other Interests}
+\cvline{}{\small I also enjoy travel, music, and good food and wine.}
+%\cvline{hobby 2}{\small Description}
+%\cvline{hobby 3}{\small Description}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+% Publications from a BibTeX file
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.

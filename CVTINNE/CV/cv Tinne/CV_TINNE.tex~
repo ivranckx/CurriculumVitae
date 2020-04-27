@@ -1,0 +1,306 @@
+%\varnothing\forall\in\eqslantless%% start of file `jdoe_classic.tex'.
+%% Copyright 2006 Xavier Danaux.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt]{moderncv}
+
+% moderncv styles
+%\moderncvstyle{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvstyle{classic}       % idem
+
+% character encoding
+%\usepackage[utf8]{inputenc}   % replace by the encoding you are using
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{Tinne}
+\familyname{Wouters}
+\title{Master in de vroedkunde}
+%\address{17 Spartis Street\\144-52 Metamorphosis\\Athens, Attika, Hellas}  % for classic style
+\address{Paul Delvaux wijk 26\\ 3000 Leuven\\ Belgi\"{e}}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+%\phone{+30 210 28 49 173\\+30 694 20 59 566}
+\phone{+0494 13 45 22}
+\email{woutetin@hotmail.com}
+%\email{woutetin [AT] hotmail.com}
+
+%\extrainfo{\weblink{http://users.telenet.be/\textasciitilde hosti}}
+%\photo[84pt]{dim2} % also optional, and the optional argument is the height the picture must be resized to
+%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\makequote
+
+\section{\textsc{Persoonlijke informatie}}
+
+\cvitem{Geboortedatum}{Maart 23, 1983}
+\cvitem{Geboorteplaats}{Geel, Belgi\"{e}}
+\cvitem{Nationaliteit}{Belg}
+\cvitem{Echtelijke staat}{Alleenstaand}
+
+%\vspace*{-1cm}
+\section{\textsc{Talen}}
+\cvitem{Nederlands}{Moedertaal}
+\cvitem{Engels}{Vlot spreken, lezen en schrijven}
+\cvitem{Frans}{Aanvaardbaar}
+
+\section{\textsc{Wetenschappelijke interesses}}
+%\cvitem{Theoretical Informatics}{Computer Algebra, Cryptography, Algorithmic Number Theory, Computational Geometry, Numerical Analysis, Interval Arithmetic}
+%\cvitem{Computer Systems}{Dynamic Programming, Reinforcement Learning}
+\cvitem{}{
+Tijdens het maken van mijn thesis in het laatste jaar van mijn licenciaat studie is mijn interesse ontstaan voor wetenschappelijk onderzoek. Dit kwam meer dan van pas wanneer ik begon te werken als verpleegkundige 
+op de dienst reumatologie en endocrinologie. Om zo snel mogelijk in te werken in de toch wel moeilijke problematiek van reumatolgie en minder mate
+endocrinlogie waren mijn vaardigheden om snel de juiste informatie op te zoeken vereist.
+Momenteel maak ik op de dienst ook deel uit van de werkgroep reuma, waar we bezig zijn met het maken van nieuwe pati\"{e}ntenfolders over het gebruik van medicatie en een nieuw type dossier.}
+%\cvlistitem{Computational Algebraic Geometry}
+
+%\cvlistitem{Interval Arithmetic}
+%\cvlistitem{Reinforcement Learning}
+%\cvlistitem{Dynamic Programming}
+%
+% Other Activities.
+%
+\section{\textsc{Algemene interesses}}
+\cvitem{Vakantie}{Hier geldt als vuistregel: (bepakte) fietsvakanties en trekvakanties.}
+%Het doel van Joker is tijdens de reis de plaatselijke bevolking zoveel mogelijk te ondersteunen. De reisgenoten zijn voor de reis onbekende, maar na de 
+%reis zijn het vrienden geworden, dus sociale vaardigheden zijn hierbij belangrijk. 
+\cvitem{}{In het verleden ben ik al op fietsvakantie in Frankrijk en Schotland geweest. Ook ben ik met de reisorganisatie Joker gaan rondtrekken in Egypte en Marokko.
+In het verleden heb ik ook een inleefreis ondernomen naar Nicaragua. Tijdens deze reis is mijn intresse ontstaan in ontwikkelingssamenwerking.
+}
+\cvitem{Sport}{Indien ik de tijd vind probeer ik deze te benutten door te gaan fietsen, om zo mijn conditie op peil te houden.}
+\cvitem {Andere intresses}{Tijdens mijn resterende vrije tijd probeer ik samen met vrienden zoveel mogelijke culturele activiteiten mee te pikken, zoals, cinema, concerten, toneel.}
+
+%
+% Other Interests.
+%
+%\section{\textsc{Other Interests}}
+
+%\cvitem{}{}
+
+
+\closesection{}
+\pagebreak{}
+
+\section{\textsc{Opleiding}}
+
+\cventry{\textbf{2009-Heden}}{Postgraduaat Tropische geneeskunde voor verpleeg- en vroedkundigen}{}{\newline Instituut voor Tropische Geneeskunde}{Antwerpen, Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.itg.be/itg/}}{}
+%\cvitem{}{\textsc{Master Thesis}}
+
+\cventry{\textbf{2004-2006}}{Master in de Verpleegkunde en vroedkunde}{\newline Departement ziekenhuiswetenschappen}{Katholieke Universiteit Leuven}{Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.kuleuven.be/}}{}
+%\cvitem{}{\textsc{Master Thesis}}
+\cvitem{Thesis}{\emph{De betrokkenheid en de beleving van de vroedvrouw bij prenatale diagnostiek en zwangerschapsafbreking: een kwalitatieve studie.}}
+\cvitem{Supervisors}{Prof. C. Gastmans, Prof. B. Dierckx de Casterl\'{e}}
+\cventry{\textbf{2001-2004}}{Graduaat in de Vroedkunde}{\newline Departement Gezondheidszorg}{Katholieke Hogeschool Kempen}{Lier, Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.khk.be/khk04/}}{}
+\cvitem{Thesis}{\emph{Medische en alternatieve behandeling van reflux.}}
+\cvitem{Supervisors}{Mevr. K. Grauwels}
+%\cvitem{}{\textsc{Master Thesis}}
+%\cvitem{Thesis}{\emph{Medische en alternatieve van reflux.}}
+%\cvitem{Supervisors}{Mevr. K. Grauwels}
+
+\section{\textsc{Werkervaring}}
+%\cvitem{}{}
+\cventry{\textbf{2006-2009}}{Professionele ervaring}{}{}{}{}
+
+\cvitem{2009 (sep)-heden}{Werkzaam bij het Rode Kruis op bloedtransfusiecentrum.}
+\cvitem{2007-2009}{Werkzaam op de afdeling reumatolgie en endocrinologie.}
+\cvitem{2007-2007}{Kort werkzaam geweest op materniteit 441}
+\cvitem{2006-2007}{Beginnnen werken in UZ Gasthuisberg op afdeling reumatologie en endocrinolgie}
+
+\cventry{\textbf{2001-2005}}{Preprofessionele ervaring}{}{}{}{}
+%\cventry {2001-2005} {Preprofessionele ervaring}{}{}
+
+\cvitem{2004-2005}{Tijdens vakantieperiode met de CM als monitrice meegeweest voor de leeftijdsgroep 0-3 jarige.}
+
+%\begin{itemize}
+\cvitem{2003-2004}{Stages:}
+\cvlistitem {4 weken NIC St. Augustinus Wilrijk}
+\cvlistitem {4 verloskamer A.Z.H. Familie Reet}
+\cvlistitem {5 weken verloskamer H. Hartziekenhuis Lier}
+\cvlistitem {3 weken Kind en Gezin}
+\cvlistitem {Vakantiewerk op de dienst Geriatrie  in H. Hartziekenhuis Mol.}
+%\end{itemize}
+
+\cvitem{2002-2003}{Stages:}
+\cvlistitem {2 weken gynaecologie Imeldaziekenhuis Bonheide}
+\cvlistitem {6 weken verloskamer A.Z. St. Dimpna}
+\cvlistitem {4 weken materniteit H. Hartziekenhuis Lier}
+\cvlistitem {1 week consultatie A.Z. Middelheim}
+\cvlistitem {1 week bloedname A.Z. Middelheim}
+\cvlistitem {1 week fertiliteit A.Z. Middelheim}
+\cvlistitem {Vakantiewerk op de dienst Geriatrie  in H. Hartziekenhuis Mol.}
+
+\cvitem{2001-2002}{Stages:}
+\cvlistitem {4 weken materniteit A.Z. St. Dimpna}
+\cvlistitem {3 weken heelkunde (urologie) A.Z. St. Dimpna}
+\closesection{}
+
+\section{\textsc{Computervaardigheden}}
+\cvitem{OS}{Alle Microsoft\texttrademark\ operating systemen, Ubuntu Linux}
+\cvitem{Office}{Lyx, Microsoft Office\texttrademark, OpenOffice}
+
+%\section{Experience}
+%\cventry{February 2006--\\current}{Maintainer of the a CTAN package}{CTAN}{World}{}{Maintainer of the {\ttfamily moderncv} package, meant to ease the production of beautiful curriculum vit\ae{}s.}
+%\cventry{2005--2006}{Mathematics tutor}{UCL}{Louvain-la-Neuve}{}{Supervision of practical sessions for a mathematical course given to second year engineering students (course \emph{FSAB1104: Numerical Methods}).\hfill{\itshape\color{see}\footnotesize{}See \httplink{www.legat-online.be/b2q1/num}.}}
+%\cventry{2004--2006}{Cultural project leader}{Tchouque-Tschouk Kot}{Louvain-la-Neuve}{}{Leader of a student home with a cultural project, requiring day to day management as well as the organization of public events.\hfill{\itshape\color{see}\footnotesize{}See \httplink{www.organe.be}.}}
+%\cventry{1999--2001}{IMO preselected}{SBPMef}{Wépion}{}{Advanced mathematical training, as Belgian preselected candidate for the International Mathematical Olympiads, selected by the Belgian mathematical society.\hfill{\itshape\color{see}\footnotesize{}See \weblink{imo.math.ca/belgium.html}.}}
+
+
+%\closesection{}
+%\pagebreak{}
+
+
+
+
+
+
+
+%\section{Section with a list}
+%\cvlistitem{Single item.}
+%\cvlistitem{Another single item.}
+%\cvlistdoubleitem{Double\dots{}}{\dots{} item.}
+%\cvlistdoubleitem{Another double\dots{}}{\dots{} item.}
+
+%\section{Section with your own content}\closesection
+%Your content here, inside the normal \LaTeX{} environment. You can use any regular \LaTeX{} command, display mathematics
+%\[e =m\,c^2,\]
+%put some table or figure, \dots
+
+%\emptysection{}
+%\cvitem{Now}{Back to moderncv layout, without making a new section :-)}
+
+
+
+
+
+%\closesection{}
+%\pagebreak{}
+
+%\section{\textsc{Publicaties}}
+
+%\cvitem{}{\small Gelieve op de merken dat ons OCR-artikel en de meest recente thesistekst pas op het einde van het academiejaar vrijgegeven zullen worden.}
+
+%, Proceedings of the 2010 international workshop on Research issues in digital libraries.\\\small Op het einde van Juni zal een kopie beschikbaar zijn op\\ 
+
+%
+% INRIA
+%
+
+
+%
+% Other Articles.
+%
+%\cvitem{}{\textsc{Andere Artikels}}
+%
+% Programming
+%
+%\cvitem{Psychologie}{\textit{De herkenning van getypte tekst: zo goed als opgelost?}, is een vrij `los` geschreven, korte paper waarin we de link tussen optical character recognition en de computationele psychologie verduidelijken. Een kopie is beschikbaar op {\color{see} \weblink{http://users.telenet.be/hosti/psy.pdf}}}
+
+
+%\closesection{}
+%\pagebreak{}
+
+
+%\section{\textsc{References}}%\closesection
+%\cvitem{}{These persons are familiar with my professional qualifications and my character:}
+%\cvitem{}{} % Empty line.
+%
+% Emiris
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Associate Professor Dr. Ioannis Z. Emiris \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%\textbf{Professor Dr. Ioannis Z. Emiris \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%Master thesis supervisor & Phone: & +30-210-727.5105\\
+%Dept. of Informatics and Telecommunications & Fax: & +30-210-727.5114\\
+%University of Athens & Email: & emiris@di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+%\end{tabular}}
+%
+% Koutsoupias
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Professor Dr. Elias Koutsoupias \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%Dept. of Informatics and Telecommunications & Phone: & +30-210-727.5122\\
+%University of Athens & Fax: & +30-210-727.5114\\
+%Panepistimiopolis, 15784 Athens, Hellas & Email: & elias@di.uoa.gr \\
+%\end{tabular}}
+%
+% Raptis
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Professor Ioannis Z.~Emiris} & \\
+%Master thesis supervisor & Phone: & +30-210-727.5105\\
+%Dept.~of Informatics and Telecommunications \ & Fax: & +30-210-727.5114\\
+%University of Athens & Email: & emiris [AT] di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+% & \\
+%\textbf{Professor Elias Koutsoupias} & \\
+%Dept.~of Informatics and Telecommunications \ & Phone: & +30-210-727.5122\\
+%University of Athens & Fax: & +30-210-727.5114\\
+%Panepistimiopolis, 15784 Athens, Hellas & Email: & elias [AT] di.uoa.gr \\
+% & \\
+%\end{tabular}}
+%
+% Stamatopoulos
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Assistant Professor Dr. Panagiotis Stamatopoulos \ \ } \\
+%Undergraduate thesis supervisor & Phone: & +30-210-727.5202\\
+%Dept. of Informatics and Telecommunications & Fax: & +30-210-727.5214\\
+%University of Athens & Email: & takis@di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+%\end{tabular}}
+
+
+
+% Use the following when references are alone on last page.
+% The following is for use when Elias Koutsoupias can be referenced.:
+%\vspace{14cm}
+
+%%\vspace{15.7cm}
+
+
+
+%%\vspace{13.5cm}
+%%\vspace{13cm}
+%%\vspace{12cm}
+
+%\vspace{8.5cm}
+%\vspace*{\fill}
+%\section{\textsc{Updated}}
+%\cvitem{}{20 juli, 2009}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{jdoe_publications}
+
+\end{document}
+
+
+%% end of file `diochnos_cv.tex'.

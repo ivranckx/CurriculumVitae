@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\usepackage[dutch]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Iwein}
+\def\familyname{Vranckx}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's cover letter}
+\def\FileSubject{Cover letter}
+\def\FileKeyWords{\firstname \familyname, Cover letter}
+
+\renewcommand{\ttdefault}{pcr}
+
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+\raggedleft%
+{\bfseries Tinne Wouters}\\[.35ex]
+\small\itshape%
+Paul-Delvaux wijk 26\\
+3000 Leuven\\[.35ex]
+\Telefon~0494 13 45 22\\
+\Letter~\href{mailto:woutetin@hotmail.com} {woutetin@hotmail.com}
+\end{minipage}\\[1em]
+%
+\begin{minipage}[t]{.4\textwidth}
+\raggedright%
+{\bfseries Regionaal Ziekenhuis H.Hart}\\[.35ex]
+\small\itshape%
+Naamsestraat 105\\
+3000 Leuven
+\end{minipage}
+\hfill % US style
+%\\[1em] % UK style
+\begin{minipage}[t]{.4\textwidth}
+\raggedleft % US style
+\today
+%April 6, 2006 % US informal style
+%05/04/2006 % UK formal style
+\end{minipage}\\[2em]
+\raggedright
+T.a.v: Mevr. Sabine Verslegers, Directeur personeel\\[1.5em]
+
+Betreft: sollicitatie vroedvrouw materniteit \& verloskwartier\\[1.5em]
+%
+
+Geachte Mevrouw,
+
+Op de website van Regionaal Ziekenhuis H. Hart heb ik vernomen dat u een vroedvrouw voor de afdeling matreniteit verloskwartier aanwerft. 
+Zowel op het vlak van mijn opleiding als vauit mijn personlijke belangstelling ben ik sterk geïntresseerd in deze opportunteit. 
+Ik heb dan ook geen moment getwijfeld om te reageren.\newline
+
+Na 3 jaar te werken als verpleegkundige, wordt het stilletjes aan terug tijd om terug te keren naar mijn eerste liefde, namelijk vroedkunde.  \\
+Naar mijn bescheiden mening beschik ik over voldoende enthousiasme en kennis om deze vacature goed uit te oefenen.\newline
+
+Mocht u geïntresserd zijn naar  meer informatie dan zou ik u graag willen ontmoeten in een persoonlijk gesprek om mijn motivatie nader toe te lichten.
+
+Met vriendelijke groet\\
+[2em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries Tinne Wouters}\\
+\vfill%
+%{\slshape Bijlage}
+{\slshape Bijlage: curriculum vit\ae{}}
+\end{document}

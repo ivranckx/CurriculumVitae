@@ -1,0 +1,290 @@
+%\varnothing\forall\in\eqslantless%% start of file `jdoe_classic.tex'.
+%% Copyright 2006 Xavier Danaux.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt]{moderncv}
+
+% moderncv styles
+%\moderncvstyle{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvstyle{classic}       % idem classic casual
+
+% character encoding
+%\usepackage[utf8]{inputenc}   % replace by the encoding you are using
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{Iwein}
+\familyname{Vranckx}
+\title{lic. ir. ing.}
+%\address{17 Spartis Street\\144-52 Metamorphosis\\Athens, Attika, Hellas}  % for classic style
+\address{Paul-Delvaux wijk 26\\ 3000 Leuven\\ Belgie}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+%\phone{+30 210 28 49 173\\+30 694 20 59 566}
+\phone{0498 57 76 04}
+\email{ivranckx@gmail.com}
+\email{hosti@telenet.be}
+%\extrainfo{\weblink{http://users.telenet.be/\textasciitilde hosti}}
+%\photo[84pt]{dim2} % also optional, and the optional argument is the height the picture must be resized to
+\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\pagebreak{}
+
+%
+%\section{\textsc{Scientific Activities}}
+%\cvitem{2006 -- 2007\\ Jan \ \ \ \ \ Jul}{Member of the \textit{Lab of Geometric and Algebraic Algorithms} at the Dept. of Informatics and Telecommunications, University of Athens.\\Homepage: {\color{see} \weblink{http://www.di.uoa.gr/\textasciitilde erga}}}
+%\weblink{\texttt{http://www.di.uoa.gr/\textasciitilde erga}}}
+%\cvitem{Sep 2004}{Member of the International Scientific Committee (\texttt{ISC}) at the International Olympiad in Informatics (\texttt{IOI-2004}) that was held in Athens.\\Homepage: {\color{see} \weblink{http://www.ioi2004.org}}}
+
+
+
+
+
+\section{\textsc{Work Experience}}
+\cvitem{}{}
+\cvitem{}{My professional experience is mainly situated in project management, technical analysis, IT consultancy, software implementation, 
+process automation and advanced R\&D using mathematical models.}
+%\cvitem{}{}
+
+\cventry{}{\textbf{R\&D Engineer}}{}{}{}{}
+\cvitem{2009-2009}{The SVM classifiers (Linear and kernel based \textit{Support Vector Machines}) that are implemented in my last thesis possess a extreme good classification rate (up to 85\%). 
+This indicates that SVMs could be of interest for the classification of faulty gear boxes. 
+The R\&D departement of Hansen would use this technique for bearing error analysis: if it is known what kind of errors \textit{can} occur, Support Vectors could automatic classify the errors that \textit{have} occurred.\\ 
+At the time of writing I'm working on preliminary research on the feasibility of this technique, the constraints that it imposes on the input data and how Support Vector Machines can work out the best. 
+We would ultimately implement this artificial intelligence in software which can - based on vibration measurements as an input signal - automatically indicates whether or not a gearbox meets the required test criteria.
+}
+\cvitem{}{}
+\cventry{}{\textbf{Automation engineer}}{}{}{}{}
+\cvitem{2006-2008}{During studies at the KULeuven it was my job - as an automation engineer - to improve the reporting of different types of production data. }
+\cvitem{2005-2006}{Despite the large amount of work that accompanied my biomedical thesis I was recalled to Hansen in order to develop a program that could measure the impact of heat deformation on gear box axes.
+This was a problem that I've solved using frequency analysis and DSP techniques.
+My core task in this period also included the development and debugging of my previously written software. {\color{see} \weblink{http://www.hansentransmissions.com}}}
+
+\cvitem{2001-2004}{	
+During this period at Hansen I have been working on the Tristan project. \\
+My main work was designing a road map for development, check and inquire points of interest, engineering of mathematical formulas and the necessary calculations, the design of database layouts \& queries, software implementation and finally to the verification and debugging of the results. All this was more than two years full-time work.
+}
+%\cvitem{1996}{Vakantiejob (07-08) bij Gazet van Antwerpen. Als jonge knaap mocht ik meewerken met de onderhoudsploeg. Dit werk bestond uit het vervangen van lampen, het  aanleggen en uittesten van het brandalarm, het kuisen van drukrollen en het maken van opbergkasten in het magazijn. {\color{see} \weblink{http://www.gva.be}}}
+
+\closesection{}
+%\pagebreak{}
+
+\section{\textsc{Software Knowledge}}
+%\cvitem{\textbf{Operating Systems}}{}
+\cvitem{}{\textbf{Operating Systems}}
+\cvitem{}{All Microsoft\texttrademark\ operating systems, Solaris\texttrademark\ Unix, MacOS\texttrademark, Linux}
+\cvitem{}{\textbf{Programming Languages}}
+\cvitem{Procedural}{C, Perl, Pascal, QBasic}
+\cvitem{Object-Oriented}{Qt4, C++, Java, UML}
+\cvitem{Visual}{Visual C++, Visual Basic, Visual Studio}
+\cvitem{Shells-Scripts}{Bourne, bash, MS-DOS, VBScript, JavaScript}
+\cvitem{Web}{HTML, XML}
+\cvitem{}{\textbf{Programs}}
+\cvitem{Qt/C++}{QDevelop, QtCreator, Eclipse (Qt plugin), Kdevelop, Mono}
+\cvitem{Java}{Netbeans, Eclipse}
+\cvitem{Database}{MySQL, SQLLite, Oracle\texttrademark, MS Access\texttrademark}
+\cvitem{Wetenschappelijk}{Maple\texttrademark, MatLab\texttrademark}
+%\cvitem{Office Automation}{\LaTeX, Microsoft Office\texttrademark}
+%\cvitem{}{}
+\cvitem{}{\textbf{Office}}
+\cvitem{}{\LaTeX, OpenOffice, Microsoft Office, LYX\texttrademark}
+
+%\section{\textsc{Working Experience}}
+%\cvitem{Operating Systems}{All Microsoft\texttrademark\ operating systems, Solaris\texttrademark\ Unix, MacOS, Linux}
+%\cvitem{Programming}{}
+%\cvlistdoubleitem{Procedural}{C, Perl, Pascal, QBasic, Fortran}
+%\cvlistdoubleitem{Object-Oriented}{C++, Java, Object Pascal}
+%\cvlistdoubleitem{Visual}{Visual C++, Visual Basic}
+%\cvlistdoubleitem{Interpreted}{GW-Basic, Logo}
+%\cvlistdoubleitem{Logic}{LPA-Prolog}
+%\cvlistdoubleitem{Functional}{Haskell}
+%\cvlistdoubleitem{Shells-Scripts}{C, Bourne, Korn, bash, z, pk, MS-DOS, VBScript, JavaScript}
+%\cvlistdoubleitem{Web}{HTML}
+%\cvitem{Tools}{}
+%\cvlistdoubleitem{Scientific}{Maple\texttrademark, MatLab\texttrademark, GNUPlot, Graphmat}
+%\cvitem{Data-Base Tools}{Oracle SQLPlus\texttrademark, Microsoft SQLServer\texttrademark}
+%\cvlistdoubleitem{Data-Base}{Oracle SQLPlus\texttrademark, Microsoft SQLServer\texttrademark}
+%\cvitem{Office Automation}{\LaTeX, Microsoft Office\texttrademark}
+%\cvitem{Office Automation}{\LaTeX, Microsoft Office\texttrademark}
+
+%\section{Experience}
+%\cventry{February 2006--\\current}{Maintainer of the a CTAN package}{CTAN}{World}{}{Maintainer of the {\ttfamily moderncv} package, meant to ease the production of beautiful curriculum vit\ae{}s.}
+%\cventry{2005--2006}{Mathematics tutor}{UCL}{Louvain-la-Neuve}{}{Supervision of practical sessions for a mathematical course given to second year engineering students (course \emph{FSAB1104: Numerical Methods}).\hfill{\itshape\color{see}\footnotesize{}See \httplink{www.legat-online.be/b2q1/num}.}}
+%\cventry{2004--2006}{Cultural project leader}{Tchouque-Tschouk Kot}{Louvain-la-Neuve}{}{Leader of a student home with a cultural project, requiring day to day management as well as the organization of public events.\hfill{\itshape\color{see}\footnotesize{}See \httplink{www.organe.be}.}}
+%\cventry{1999--2001}{IMO preselected}{SBPMef}{Wépion}{}{Advanced mathematical training, as Belgian preselected candidate for the International Mathematical Olympiads, selected by the Belgian mathematical society.\hfill{\itshape\color{see}\footnotesize{}See \weblink{imo.math.ca/belgium.html}.}}
+
+
+%\closesection{}
+%\pagebreak{}
+
+
+
+
+
+
+
+%\section{Section with a list}
+%\cvlistitem{Single item.}
+%\cvlistitem{Another single item.}
+%\cvlistdoubleitem{Double\dots{}}{\dots{} item.}
+%\cvlistdoubleitem{Another double\dots{}}{\dots{} item.}
+
+%\section{Section with your own content}\closesection
+%Your content here, inside the normal \LaTeX{} environment. You can use any regular \LaTeX{} command, display mathematics
+%\[e =m\,c^2,\]
+%put some table or figure, \dots
+
+%\emptysection{}
+%\cvitem{Now}{Back to moderncv layout, without making a new section :-)}
+
+
+
+%\section{\textsc{Open source Software}}
+%\cvitem{Academisch}{\textbf{SVM based OCR}\\Op het einde van dit accademiejaar publiceer ik mijn Optical Chartacter Recognition Software onder GPL op onderstaande sites:}
+%\cvitem{}{ \color{see} \weblink{http://www.qt-apps.org/}, \weblink{http://www.gnome-look.org/}, \weblink{http://www.kde-apps.org/} }
+
+%\closesection{}
+%\pagebreak{}
+
+%\section{\textsc{Publicaties}}
+
+%\cvitem{}{\small Gelieve op de merken dat ons OCR-artikel en de meest recente thesistekst pas op het einde van het academiejaar vrijgegeven zullen worden.}
+
+%\cvitem{}{\textsc{Optical Character Recognition}}
+%\cvitem{OCR}{\textit{SVM based Optical Character Recognition for ancient manuscripts}, Vranckx I, Tuytelaers T, and L. Van Gool. \small ~Document image analysis for digital libraries (DAIL) \\\small Op het einde van Juni zal een kopie beschikbaar zijn op\\ 
+%, Proceedings of the 2010 international workshop on Research issues in digital libraries.\\\small Op het einde van Juni zal een kopie beschikbaar zijn op\\ 
+%{\color{see} \weblink{http://users.telenet.be/hosti/ocrDAIL.pdf}}}
+
+%\cvitem{}{\textsc{Thesis teksten}}
+%
+% INRIA
+%
+%\cvitem{ir.}{\textit{Optical Character Recognition for ancient manuscripts}, I. Vranckx.\\\small Op het einde van Juli zal een kopie beschikbaar zijn op\\ 
+%{\color{see} \weblink{http://users.telenet.be/hosti/ocrThesis.pdf}}}
+
+%\cvitem{lic.}{\textit{Reductie van RingArtefacten op $\mu-Ct$ beelden}\\ \small Er is een kopie beschikbaar op\\ 
+%{\color{see} \weblink{http://visielab.ua.ac.be/protected/lictheses/vranckx/thesis05.pdf}}}
+
+%\cvitem{ing.}{\textit{Tristan: data acquisition software for a heat treatment production proces}\\\small Meer informatie is beschikbaar op\\ 
+%{\color{see} \weblink{http://doks.kdg.be/doks/}}}
+
+%
+% Other Articles.
+%
+%\cvitem{}{\textsc{Andere Artikels}}
+%
+% Programming
+%
+%\cvitem{Psychologie}{\textit{De herkenning van getypte tekst: zo goed als opgelost?}, is een vrij `los` geschreven, korte paper waarin we de link tussen optical character recognition en de computationele psychologie verduidelijken. Een kopie is beschikbaar op {\color{see} \weblink{http://users.telenet.be/hosti/psy.pdf}}}
+
+
+%\closesection{}
+%\pagebreak{}
+
+
+%\section{\textsc{References}}%\closesection
+%\cvitem{}{These persons are familiar with my professional qualifications and my character:}
+%\cvitem{}{} % Empty line.
+%
+% Emiris
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Associate Professor Dr. Ioannis Z. Emiris \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%\textbf{Professor Dr. Ioannis Z. Emiris \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%Master thesis supervisor & Phone: & +30-210-727.5105\\
+%Dept. of Informatics and Telecommunications & Fax: & +30-210-727.5114\\
+%University of Athens & Email: & emiris@di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+%\end{tabular}}
+%
+% Koutsoupias
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Professor Dr. Elias Koutsoupias \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%Dept. of Informatics and Telecommunications & Phone: & +30-210-727.5122\\
+%University of Athens & Fax: & +30-210-727.5114\\
+%Panepistimiopolis, 15784 Athens, Hellas & Email: & elias@di.uoa.gr \\
+%\end{tabular}}
+%
+% Raptis
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Professor Ioannis Z.~Emiris} & \\
+%Master thesis supervisor & Phone: & +30-210-727.5105\\
+%Dept.~of Informatics and Telecommunications \ & Fax: & +30-210-727.5114\\
+%University of Athens & Email: & emiris [AT] di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+% & \\
+%\textbf{Professor Elias Koutsoupias} & \\
+%Dept.~of Informatics and Telecommunications \ & Phone: & +30-210-727.5122\\
+%University of Athens & Fax: & +30-210-727.5114\\
+%Panepistimiopolis, 15784 Athens, Hellas & Email: & elias [AT] di.uoa.gr \\
+% & \\
+%\end{tabular}}
+%
+% Stamatopoulos
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Assistant Professor Dr. Panagiotis Stamatopoulos \ \ } \\
+%Undergraduate thesis supervisor & Phone: & +30-210-727.5202\\
+%Dept. of Informatics and Telecommunications & Fax: & +30-210-727.5214\\
+%University of Athens & Email: & takis@di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+%\end{tabular}}
+
+
+
+% Use the following when references are alone on last page.
+% The following is for use when Elias Koutsoupias can be referenced.:
+%\vspace{14cm}
+
+%%\vspace{15.7cm}
+
+
+
+%%\vspace{13.5cm}
+%%\vspace{13cm}
+%%\vspace{12cm}
+
+%\vspace{8.5cm}
+%\vspace*{\fill}
+%\section{\textsc{Updated}}
+%\cvitem{}{March 29, 2007}
+%\cvitem{}{4 Maart, 2009}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{jdoe_publications}
+
+
+\end{document}
+
+
+%% end of file `diochnos_cv.tex'.

@@ -1,0 +1,588 @@
+%\varnothing\forall\in\eqslantless%% start of file `jdoe_classic.tex'.
+%% Copyright 2006 Xavier Danaux.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+%\documentclass[10pt]{moderncv}
+% moderncv styles
+%\moderncvstyle[green]{casual}       % optional argument are 'nocolor' (black & white cv) and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvstyle[green]{classic}
+%\moderncvtheme{blue} %]{classic}
+%\moderncvstyle{classic}       % idem classic casual
+
+%\usepackage[dutch]{babel}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+%\recomputelengths     
+
+% character encoding
+
+% personal data (the given example is exhaustive; just give what you want)
+%\firstname{Iwein}
+%\familyname{Vranckx}
+%\title{lic. ir. ing.}
+%\address{17 Spartis Street\\144-52 Metamorphosis\\Athens, Attika, Hellas}  % for classic style
+%\address{Paul-Delvaux wijk 26\\ 3000 Leuven\\ Belgi\"{e}}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+%\phone{+30 210 28 49 173\\+30 694 20 59 566}
+%\phone{0498 57 76 04}
+%\email{ivranckx@gmail.com}
+%\email{ivranckx@telenet.be}
+%\extrainfo{\weblink{http://users.telenet.be/\textasciitilde hosti}}
+%\photo[84pt]{picture} % also optional, and the optional argument is the height the picture must be resized to
+%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+%\def\ConTeXt{%
+%  C%
+%  \kern-.0333emo%
+%  \kern-.0333emn%
+%  \kern-.0667em\TeX%
+%  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+%\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+%\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+
+%\firstname{Iwein}
+%\familyname{Vranckx}
+%\title{lic. ir. ing.}
+%\address{17 Spartis Street\\144-52 Metamorphosis\\Athens, Attika, Hellas}  % for classic style
+%\address{Paul-Delvaux wijk 26\\ 3000 Leuven\\ Belgi\"{e}}  % for classic style
+%\address{12 somestreet, 3456 somecity} % for casual style
+%\phone{+30 210 28 49 173\\+30 694 20 59 566}
+%\phone{0498 57 76 04}
+%\email{ivranckx@gmail.com}
+%\email{ivranckx@telenet.be}
+%\extrainfo{\weblink{http://users.telenet.be/\textasciitilde hosti}}
+%\photo[84pt]{picture} % also optional, and the optional argument is the height the picture must be resized to
+%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+
+% personal data
+\firstname{Iwein}
+\familyname{Vranckx}
+\title{lic. ir. ing.}               % optional, remove the line if not wanted
+\address{Paul Delvaux wijk 26}{3000 Leuven, Belgi\"{e}}    % optional, remove the line if not wanted
+\mobile{0498 57 76 04}                    % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{ivranckx@telenet.be}                      % optional, remove the line if not wanted
+\extrainfo{ \weblink{http://users.telenet.be/hosti}{}}
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\maketitle
+
+%\maketitle
+%\makequote
+\section{\textsc{Wetenschappelijke interesses}}
+\cvitem{Image processing}{Segmentatie, Medical Imaging, BeeldInterpretatie \& beeldanalyse, Artefact reductie op beelden}
+%\cvitem{A.I}{Klassificatie mbv. Neurale netwerken, Support Vector Machines}
+%\cvitem{Dsp}{Adaptieve filters, Adaptive noise cancellation,...}
+\cvitem{IT.}{Ontwerp, optimalisatie en implementatie van Databasetoepassingen. C++ Qt application development, IT-projectmanagement, Mobile Wireless Internet.}
+\cvitem{Industrie}{Productie-effici\"{e}ntie analyseren, IT-verbeteringsprojecten voorstellen en opvolgen. }
+
+%Na een eerste introductie word je ingeschakeld op de dienst Factory Performance, en krijg je de verantwoordelijkheid over een aantal %verbeteringsprojecten binnen de productie-eenheid van Danone België.  Deze verbeteringsprojecten hebben tot doel om de productiekost te verlagen %en/of de productie-efficiëntie te verhogen.  Je hanteert hierbij methoden zoals Six Sigma en Lean Management en werkt nauw samen met collega’s %over de verschillende afdelingen.  Tevens geef je ondersteuning aan andere afdelingen in hun gebruik van methoden om zo de processen continu te %kunnen verbeteren. 
+%Na een eerste ervaring binnen Danone België, verruim je je horizon en doe je een gelijkaardige ervaring op in een andere vestiging in het %buitenland gedurende een 6-tal maanden.   Na 2 à 3 jaar groei je door naar een leidinggevende functie binnen onze fabriek of één van onze andere %fabrieken binnen de Groep Danone.
+
+%\cvlistem{Ontwerp, optimalisatie en implementatie van Databasetoepassingen}
+%\cvlistitem{Digital Signal Processing: Adaptieve filters, Adaptive noise cancellation,...}
+%Having an analytical mind, working goal oriented and being quality minded
+
+%\cvlistitem{Interval Arithmetic}
+%\cvlistitem{Reinforcement Learning}
+%\cvlistitem{Dynamic Programming}
+%
+% Other Activities.
+%
+\closesection{}
+\section{\textsc{Persoonlijke informatie}}
+%\cvitem{Ouders}{Jos Vranckx, journalist, Greet Wouters, lerares. }
+\cvitem{Geboortedatum}{14 Oktober 1978, Merksem, Belgi\"{e}}
+%\cvitem{Geboorteplaats}{Merksem, Belgi\"{e}}
+\cvitem{Nationaliteit}{Belg}
+\cvitem{Echtelijke staat}{Alleenstaand}
+\cvitem{Hobby's}{Moutainbike, fitness, fietsvakanties, duurlopen, Linux \& Open source software.}        
+%\cvitem{KULeuven ID}{\texttt{s0181755}}
+%\vspace*{-1cm}
+\closesection{}
+\section{\textsc{Talen}}
+\cvitem{Nederlands}{Moedertaal}
+\cvitem{Engels}{Vlot spreken, lezen en schrijven}
+\cvitem{Frans}{Spreken, lezen en schrijven}
+\cvitem{Duits}{Notities}
+\closesection{}
+
+%\section{\textsc{Algemene interesses}}
+%\cvitem{Hobby's}{Moutainbike, fitness, fietsvakanties, duurlopen, Neurale netwerken, Linux \& Open source software.}        
+%\cvitem{Vakantie}{Hier geldt als vuistregel: (bepakte) fietsvakanties.}
+%\cvitem{}{In het verleden ben ik al op vakantie in Nederland, Frankrijk, Duitland, Zwitserland en Schotland geweest, de Noordkaap staat nog op het programma.}
+%\cvitem{Sport}{Atletiek, mountainbike, duathlon.}
+%\cvitem{}{Indien ik de tijd vind probeer ik deze te benutten door te gaan sporten, met in het bijzonder lange afstand lopen (20km).}
+%\cvitem{Linux}{Ontwikkeling en gebruik van Open Source Software.}
+%\cvitem{}{Ik ben een groot voorstander van OSS. Dit laat academici toe om op een zeer elegante manier wetenschap en technologie gratis uit te wissellen met het algemeen publiek.}
+%
+% Other Interests.
+%
+%\section{\textsc{Other Interests}}
+%\cvitem{}{}
+%\cvitem{}{}
+%\cvitem{}{\textsc{Andere activiteiten}}
+%\cvitem{}{Lid van het Nederlandstalig Linux forum. Mijn roepnaam is \texttt{hosti} en mijn profiel kan hier gevonden worden: {\color{see} \weblink{http://forum.nedlinux.nl/profile.php?id=2463}}}
+%\cvitem{}{Lid van het Nederlandstalig Ubuntu forum, geregistreerd als steunpunt in Leuven. Occasioneel los ik dus softwareproblemen van studenten op. {\color{see} \weblink{http://forum.ubuntu-nl.org}}}
+%\closesection{}
+
+%Your main tasks:
+%- 	You will be involved in our projects of developing information systems for production management. You will be responsible for a specific project and a team of engineers.
+%- 	You will set up the design of a product and participate in system analysis. Setting up and following up the planning and budget in SAP is also your responsibility.
+%- 	Contacts and meeting with customers.
+%- 	You will report to the Division leader.
+
+%Your skills and qualities:     
+%We are looking for a strongly motivated professional, meeting the following requirements:
+%- Having an analytical mind, working goal oriented and being quality minded
+%- Some years of intensive experience in software development
+%- Operating Systems: Windows XP, Windows 2000, Windows 2003
+%- Programming Environment: C#, .NET, Web Services, VC++, Java
+%- Database: ORACLE, MS SQL Server
+%- Methodology: UML, OO
+%- A Master’s degree  in informatics, or equivalent
+%- Excellent knowledge of English
+%- As a leader you like to motivate people.
+%- You are open to travel abroad for trainings and short missions
+%- Technology is your passion
+
+\section{\textsc{Softwarekennis}}
+%\cvitem{\textbf{Operating Systems}}{}
+\cvitem{}{\textbf{Operating Systems}}
+\cvitem{}{Alle Microsoft\begin{small}\texttrademark\end{small}\ operating systemen \& servers, Solaris\begin{small}\texttrademark\end{small},\ Unix, MacOS\begin{small}\texttrademark\end{small}, Linux}
+\cvitem{}{}
+\cvitem{}{\textbf{IT Technical knowledge}}
+\cvitem{Algemeen}{LAN, WAN, WLAN, VoIP, VoIP QoS, Check point Firewall, VPN, Cisco routers, ITIL}
+\cvitem{}{(Mathematical) Cryptography and data security, Open source Software, gcc,...}
+\cvitem{}{}
+\cvitem{}{\textbf{Programmeertalen / Programma's}}
+%\cvitem{Procedural}{C, Perl, Pascal, QBasic}
+\cvitem{Object-Oriented}{Qt4\begin{small}.5\end{small}, C\begin{small}++\end{small}, C\begin{small}\#\end{small}, UML}
+%\cvitem{Visual}{Visual C++, Visual Basic, Visual Studio}
+%\cvitem{Shells-Scripts}{Bourne, bash, MS-DOS, VBScript, JavaScript}
+%\cvitem{Web}{HTML, XML}
+%\cvitem{}{\textbf{Programma's}}
+\cvitem{Qt/C++}{QDevelop, QtCreator, Eclipse (Qt plugin), Kdevelop, Mono}
+%\cvitem{Java}{Netbeans, Eclipse}
+\cvitem{Database}{MySQL \& SQL\begin{small}Lite\end{small} Servers, Oracle\texttrademark, MS Access\texttrademark}
+
+\cvitem{Wetenschappelijk}{Maple\texttrademark, MatLab\texttrademark}
+%\cvitem{Office Automation}{\LaTeX, Microsoft Office\texttrademark}
+%\cvitem{}{}
+%\cvitem{}{\textbf{Office}}
+\cvitem{Office}{\LaTeX, OpenOffice, Microsoft Office\begin{small}\texttrademark\end{small}, Lotus Notes}
+\closesection{}
+
+
+\newpage
+\section{\textsc{Opleiding}}
+%\cventry{2007 -- now}{Working for my Ph.D.~in Mathematical Computer Science.}{Department of Mathematics, Statistics, and Computer Science}{University of Illinois at Chicago}{USA. \newline %\hspace{\fill}
+%{Home: {\color{see} \weblink{http://www.math.uic.edu}}}}{\hspace{\fill}}
+%}{}
+%\cvitem{}{\textsc{Master Thesis}}
+%\cvitem{title}{\emph{Real Solving on Algebraic Systems of Small Dimension}}
+%\cvitem{supervisors}{Professors Ioannis Z. Emiris, Elias Koutsoupias and Evagelos Raptis}
+%\cvitem{description}{\small Algorithms for real solving of polynomial
+%  systems of small dimension via Sturm sequences. An algebraic library in
+%  Maple has been created as part of the implementation.}
+%\cvitem{}{}
+\cventry{\textbf{2009}}{Burgerlijk Elektrotechnisch Ingenieur optie Multimedia}{\newline Departement ingenieurswetenschappen, ESAT}{Katholieke Universiteit Leuven}{Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.kuleuven.be/}}{}
+%\cvitem{}{\textsc{Master Thesis}}
+\cvitem{Thesis}{\emph{Ontwikkeling van een SVM gebaseerde OCR voor Latijns-Griekse manuscripten.}}
+\cvitem{Supervisors}{Prof. Dr. ir. L. van Gool, Prof. Dr. ir. T. Tuytelearts}
+\cvitem{Omschrijving}{\small Ondanks verschillende branden (1914, 1940) en de splitsing in 1968 beschikt de KULeuven over een aantal bibliotheken met zeer waardevolle historische collecties (van v\'{o}\'{o}r 1801) die internationaal meer dan competitief zijn. De mogelijkheden die deze bronnen creëren voor wetenschappelijk
+  onderzoek, zowel historisch, sociaal-wetenschappelijk als biomedisch, zijn momenteel nog in grote
+   mate onontgonnen omwille van de beperkte toegankelijkheid van deze archieven. Daarom is men
+   volop bezig dit materiaal in te scannen en te digitalizeren zodat men bijvoorbeeld gemakkelijk zou
+    kunnen zoeken op basis van sleutelwoorden naar relevante tekstfragmenten.
+   Bij oude drukwerken leveren de hedendaagse ad hoc OCR (Optical Character Recognition) software
+   echter onbruikbare resultaten, aangezien ze onvoldoende robuust zijn tegen vergeelde bladzijden,
+    allerlei vervuilingen, andere lettertekens, scheve letterzetting enz... Gedurende dit academiejaar
+   was het mijn taak om een aangepast OCR systeem uit te werken dat in staat is om dergelijke oude
+    drukwerken probleemloos te digitalizeren. Ontwikkeld onder Qt, C++ (Eclipse, linux).
+ }
+
+%De mogelijkheden die deze bronnen cre\"{e}ren voor wetenschappelijk onderzoek, zowel historisch, sociaal-wetenschappelijk als biomedisch, zijn momenteel nog in grote mate onontgonnen omwille van de beperkte toegankelijkheid van deze archieven. Daarom is men volop bezig dit materiaal in te scannen en te digitalizeren zodat men bijvoorbeeld gemakkelijk zou kunnen zoeken op basis van sleutelwoorden naar relevante tekstfragmenten.\\ Bij oude drukwerken leveren de hedendaagse ad hoc OCR (Optical Character Recognition) software echter onbruikbare resultaten, aangezien ze onvoldoende robuust zijn tegen vergeelde bladzijden, allerlei vervuilingen, andere lettertekens, scheve letterzetting enz... Gedurende dit academiejaar was het mijn taak om een aangepast OCR systeem uit te werken dat in staat is om dergelijke oude drukwerken probleemloos te digitalizeren\htmladdnormallink{$^{*}$}{http://homes.esat.kuleuven.be/~konijn/thesis08/alexander.html}. Ontwikkeld onder Qt, C++ (Eclipse, linux).
+
+%Zonder al te veel in detail te gaan komt dit in eerste instantie neer op het ongedaan maken van tekstrotatie (deskew, dewarping), het verbeteren van de beeldkwaliteit (niet-lineaire ruisonderdrukking en contrastverhoging) en de segmentatie van tekstonderdelen. Vervolgens wordt de structuur van het document geanalyseerd en voeren we (SVM) classificatie van de individuele letters uit. Dit resultaat leggen we nadien ter controle aan het Latijn-Griekse taalmodel voor. 
+
+\cvitem{}{}
+%\newline
+%\cvitem{}{}
+\cventry{\textbf{2005}}{Licenciaat in de biomedische beeldvorming optie Neuroimaging}{\newline Departement diergeneeskundige en biomedische wetenschappen}{Universiteit Antwerpen}{Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.ua.ac.be/}}{}
+%\cvitem{}{\textsc{Master Thesis}}
+\cvitem{Thesis}{\emph{Reductie van ringartefacten op $\mu-CT$ beelden}}
+\cvitem{Supervisors}{Prof. Dr. J. Sijbers, Dr. E. Van de Casteele}
+\cvitem{Omschrijving}{\small Hoge resolutie $\mu-CT$ beelden zijn vaak vervuild met ringartefacten. Omdat
+deze artefacten de kwantitatieve analyse en postprocessing van de beelden op
+een significante manier verstoren, dient men dit verschijnsel te elimineren, of
+tenminste zoveel mogelijk te reduceren.
+In de loop van dit jaar heb ik, in samenspraak met het visie-labo en het bedrijf
+dat deze scanners produceert (Skyscan), onderzoek gedaan naar een nieuwe
+methode om dit probleem via post-processing aanzienlijk te reduceren.
+Mijn werk bestond uit het onderzoeken van de bestaande correctiemethodes en
+het beredeneren van een nieuw correctiemechanisme. Het resultaat van mijn
+onderzoek werd succesvol ge\"{i}mplementeerd in een nieuw, niet-industrieel
+testprogramma dat ontwikkeld werd geweest onder C++ (Kdevelop, linux).}
+\cvitem{}{}
+%\newline
+\cventry{\textbf{2004}}{Industrieel ingenieur elektronica optie ICT}{\newline Departement ingenieurswetenschappen}{Karel de Grote hogeschool}{Antwerpen, Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.kdg.be/}}{}
+%\cvitem{}{\textsc{Master Thesis}}
+\cvitem{Thesis}{\emph{Tristan: Data aquisition software for a heat treatment production process;}}
+\cvitem{Supervisors}{lic. H. van Hove, ing. P. Mermans}
+\cvitem{Omschrijving}{\small \textit{Tristan} is de naam van een tweejarig  automatisatieproject dat door mij en Patrick Mermans (Hansen Transmissions) opgestart werd. Allerhande productiegegevens - bijvoorbeeld: welke op-
+eraties zijn op een werkstuk uitgevoerd geweest - werden manueel ingeschreven in logboeken en
+de berekening en/of het opzoeken van verschillende procesparameters diende destijds nog met
+de hand te gebeuren. Dit overkoepelend project had als doel het automatiseren van alle voorge-
+noemde handelingen. Tot op vandaag wordt dit programma gebruikt om de rendabiliteit, de
+productieflow en de productiegegevens van de hardingsafdeling bij te houden. Het programma
+  omvat hiervoor verschillende middelgrote permissie gerelateerde ‘modules‘ voor kwaliteitscontrole,
+     afwijkingsrapporten, orderplanning, orderverwerking, registratie van de perlietgegevens, bereken-
+     ing van het koolstofniveau in stukken en orderstatus (oa. acquisitie) modules.
+    Dit programma is ontwikkeld geweest onder Visual Basic en Visual C++, Windows.
+ }
+%\cvitem{}{}
+%\newline
+\cventry{\textbf{2001}}{Graduaat in de elektromechanica, optie bedrijfsmechanisatie}{\newline Departement ingenieurswetenschappen}{Karel de Grote hogeschool}{Antwerpen, Belgi\"{e}\htmladdnormallink{ $^{*}$}{http://www.kdg.be/}}{}
+%\cvitem{}{\textsc{Bachelor Thesis}}
+\cvitem{Thesis}{\emph{Ontwikkeling van een databaseapplicatie voor de registratie van procesdata.}}
+\cvitem{Supervisors}{ir. J. Dietens, ing. P. Mermans}
+\cvitem{Omschrijving}{\small Hansen Transmissions was vragende partij voor de ontwikkeling van een databasetoepassing die in staat was om productiedata -  onderhoudsgegevens - op een elegante manier te stockeren zodat uit deze informatie verdere besluiten konden worden getrokken.
+}
+
+%\section{\textsc{Secundaire opleiding}}
+%\cvitem{Undergraduate}{Mechanische vormgeving, Bon Bosco, Essen}
+%\cvitem{Empodia}{Most interesting problem in IOI-2004. See articles section for more information.}
+
+
+
+%\section{\textsc{Awards - Scholarships}}
+%\cvitem{Undergraduate}{I fullfilled my undergraduate studies under scholarship by "Zossima Brothers" ($A\varphi\acute{\omega}\nu \ 
+%Z\omega\sigma\iota\mu\acute{\alpha}$) foundation.}
+\closesection{}
+
+%\newpage
+\section{\textsc{Werkervaring}}
+\cvitem{}{}
+\cvitem{}{Mijn ervaring situeert zich voornamelijk in software gerelateerd projectmanagement, technische analyse, IT consultancy, softwareimplementatie, procesautomatisatie en R\&D van geavanceerde wiskundige modellen.}
+\cvitem{}{}
+%\\ Hansen Transmissions ({\color{see} \weblink{http://www.hansentransmissions.com}}) is \'{e}\'{e}n van de vijf grootste producenten van tandwielkasten voor windturbines en levert ook duurzame aandrijvingen voor een brede waaier aan industriele toepassingen overal ter wereld.
+
+\cventry{}{\textbf{Process Automation Engineer (IT)}}{}{}{}{}
+%\cvitem{2001-Sept. 2009 \begin{small}\color{see}(Parttime)\end{small}}{Ik was verantwoordelijk voor het volledige beheer van automatisatieprojecten die mij werden toevertrouwd. Hierbij coordineerde ik alle aspecten - voorbereiding, implementatie, organisatie, uitvoering, oplevering en afsluiting - die hiermee samengingen.\newline Deze automatisatie/verbeterings projecten hadden tot doel om de productiekost te verlagen en om de productie-efficientie te verhogen.}
+
+
+%Na een eerste introductie word je ingeschakeld op de dienst Factory Performance, en krijg je de verantwoordelijkheid over een aantal %verbeteringsprojecten binnen de productie-eenheid van Danone België.  Deze verbeteringsprojecten hebben tot doel om de productiekost te verlagen %en/of de productie-efficiëntie te verhogen.  Je hanteert hierbij methoden zoals Six Sigma en Lean Management en werkt nauw samen met collega’s %over de verschillende afdelingen.  Tevens geef je ondersteuning aan andere afdelingen in hun gebruik van methoden om zo de processen continu te %kunnen verbeteren. 
+%Na een eerste ervaring binnen Danone België, verruim je je horizon en doe je een gelijkaardige ervaring op in een andere vestiging in het %buitenland gedurende een 6-tal maanden.   Na 2 à 3 jaar groei je door naar een leidinggevende functie binnen onze fabriek of één van onze andere %fabrieken binnen de Groep Danone.
+
+\cvitem{}{}
+%\cventry{}{Taken \& verantwoordelijkheden}{}{}{}{}
+%\cvitem{}{De SVM classificatoren (Lineaire en kernelgebaseerde Support Vector Machines) die gebruikt worden in mijn thesis zouden van belang kunnen zijn voor de klassificatie van testopstellingen. Omdat SVMs een zeer hoge klassificatienauwkeurigheid hebben kan deze techniek perfect ingezet worden op foutenanalyse van lagers of het automatisch afkeuren van defecte tandwielkasten. Momenteel doe ik voorbereidend onderzoek naar de  haalbaarheid van deze techniek, de constraints die zij oplegt aan de ingangsdata en hoe we deze SV- Machines het beste kunnen trainen. Uiteindelijk zouden we deze kunstmatige intelligentie kunnen implementeren als software die - op basis van trillingsmetingen als ingangssignaal - automatisch aangeeft of een tandwielkast al dan niet voldoet aan de vereiste criteria.}
+\cventry{}{Taken \& verantwoordelijkheden}{}{}{}{}
+
+\cvitem{}{Analyseren van de automatisatiebehoeften en -problemen van leidinggevende ingenieurs en productieflow en het voorstellen van oplossingen.\newline 
+\qquad o Onderzoek doen naar adequate (wiskundig of softwarematige) oplossingsmethoden. \newline 
+\qquad o Voorstellen van innoverende oplossingen en de bestaande processen in vraag stellen. \newline 
+\qquad o Bepalen van de mogelijke impact van deze aanpassing op de coherentie van de productieflow. Ook het onderhandelen over de beste oplossingen voor de onderneming behoorde tot mijn takenpakket.\newline \newline 
+Uitwerken en implementeren van de aanvaarde automatiseringsprojecten en deze opvolgen in samenwerking met de ingenieurs inzake kosten, tijdspanne en validatie testen. \newline 
+      \qquad           o Voortdurend optreden als contactpunt tussen het project en de opdrachtgever. \newline 
+      \qquad           o Voorstellen van de budgettaire noden van de projecten aan de verantwoordelijke en dit voorstel verdedigen om de middelen te verkrijgen.\newline 
+      \qquad           o Onderhandelen, analyseren en uitwerken van prioriteiten. \newline 
+      \qquad           o Dagdagelijks rapporteren aan de verantwoordelijke inzake de status van actieve projecten\newline \newline 
+Uitdenken, opzetten en opvolgen van testprocedures.\newline \newline     
+   Informeren en opleidingen geven aan ingenieurs en arbeiders. \newline 
+      \qquad           o Regelmatig opleidingen geven inzake het gebruik van ontwikkelde software.\newline 
+      \qquad           o Instaan voor de overdracht van de kennis en fungeren als aanspreekpunt voor problemen.\newline 
+}
+
+\cventry{}{\textbf{Interim werk}}{}{}{}{}
+%\cvitem{Sept. 2009-Maart 2010 \begin{small}\color{see}\end{small}}{Sinds mijn afstuderen als burgerlijk ingenieur (Sept. 2009) werk ik ad interim als leerkracht wiskunde (Lipsius College, 2e en 3e graad, Overijse, 3 dagen per week). De rest van mijn tijd werk ik  als arbeider (Tyco Thermal controls, Haasrode).}
+%\newpage
+\cvitem{}{}
+\cventry{}{\textbf{ICT Adviseur Unizo}}{}{}{}{}
+%\cvitem{}{}
+%\cvitem{April 2010-Heden \begin{small}\color{see}\end{small}}{Als IT adviseur sta ik in voor de software en hardwarematige ICT-advisering aan KMO's op basis van input van externe ICT-partners, eigen opzoekingwerk en eigen ervaringen. Ik initieer, begeleidt en breng ICT-veranderingstrajecten (ERP, CRM, CMS, ..) tot uitvoering bij KMO's en ruimer binnen een sector. Naast de bovengenoemde punten verzorg ik de dagelijkse communicatie en opvolging met de betrokken beroepssectoren  - evenals de organisatie van zowel praktisch als inhoudelijk opleidingen, workshops en netwerkevents. }
+
+\cvitem{}{}
+%\cventry{}{Taken \& verantwoordelijkheden}{}{}{}{}
+%\cvitem{}{De SVM classificatoren (Lineaire en kernelgebaseerde Support Vector Machines) die gebruikt worden in mijn thesis zouden van belang kunnen zijn voor de klassificatie van testopstellingen. Omdat SVMs een zeer hoge klassificatienauwkeurigheid hebben kan deze techniek perfect ingezet worden op foutenanalyse van lagers of het automatisch afkeuren van defecte tandwielkasten. Momenteel doe ik voorbereidend onderzoek naar de  haalbaarheid van deze techniek, de constraints die zij oplegt aan de ingangsdata en hoe we deze SV- Machines het beste kunnen trainen. Uiteindelijk zouden we deze kunstmatige intelligentie kunnen implementeren als software die - op basis van trillingsmetingen als ingangssignaal - automatisch aangeeft of een tandwielkast al dan niet voldoet aan de vereiste criteria.}
+\cventry{}{Taken \& verantwoordelijkheden}{}{}{}{}
+
+\cvitem{}{Analyseren van de automatisatiebehoeften en -problemen van leidinggevende ingenieurs en productieflow en het voorstellen van oplossingen.\newline 
+\qquad o Onderzoek doen naar adequate (wiskundig of softwarematige) oplossingsmethoden. \newline 
+\qquad o Voorstellen van innoverende oplossingen en de bestaande processen in vraag stellen. \newline 
+\qquad o Bepalen van de mogelijke impact van deze aanpassing op de coherentie van de productieflow. Ook het onderhandelen over de beste oplossingen voor de onderneming behoorde tot mijn takenpakket.\newline \newline 
+Uitwerken en implementeren van de aanvaarde automatiseringsprojecten en deze opvolgen in samenwerking met de ingenieurs inzake kosten, tijdspanne en validatie testen. \newline 
+      \qquad           o Voortdurend optreden als contactpunt tussen het project en de opdrachtgever. \newline 
+      \qquad           o Voorstellen van de budgettaire noden van de projecten aan de verantwoordelijke en dit voorstel verdedigen om de middelen te verkrijgen.\newline 
+      \qquad           o Onderhandelen, analyseren en uitwerken van prioriteiten. \newline 
+      \qquad           o Dagdagelijks rapporteren aan de verantwoordelijke inzake de status van actieve projecten\newline \newline 
+Uitdenken, opzetten en opvolgen van testprocedures.\newline \newline     
+   Informeren en opleidingen geven aan ingenieurs en arbeiders. \newline 
+      \qquad           o Regelmatig opleidingen geven inzake het gebruik van ontwikkelde software.\newline 
+      \qquad           o Instaan voor de overdracht van de kennis en fungeren als aanspreekpunt voor problemen.\newline 
+}
+
+
+%\cvitem{2005-2006}{Ondanks de grote hoeveelheid werk die gepaard ging met mijn biomedische thesis ben ik kort teruggeroepen om een programma te ontwikkellen dat de slag van assen kon meten. Dit kwam in concreto neer op het oplossen van een frequentieprobleem door gebruik te maken van de DSP.\\ Tot mijn kerntaken behoorden in deze periode ook de verdere ontwikkeling en het debuggen van mijn eerder geschreven software. {\color{see} \weblink{http://www.hansentransmissions.com}}}
+
+%\cvitem{2001-2004}{ Gedurende deze periode heb ik bij Hansen Transmissions het Tristan project gerealiseerd.\\Het voornaamste werkt was het uitdenken van een road map voor de ontwikkeling, nakijken en navragen welke juist de pijnpunten waren, wiskundige formules opstellen voor de benodigde berekeningen, opmaken van databaselayout \& queries, softwarematige implementatie en tot slotte de verificatie en het debuggen van de resultaten. Dit alles was meer dan twee jaar voltijds werk.}
+%\cvitem{1996}{Vakantiejob (07-08) bij Gazet van Antwerpen. Als jonge knaap mocht ik meewerken met de onderhoudsploeg. Dit werk bestond uit het vervangen van lampen, het  aanleggen en uittesten van het brandalarm, het kuisen van drukrollen en het maken van opbergkasten in het magazijn. {\color{see} \weblink{http://www.gva.be}}}
+
+\closesection{}
+
+
+
+%\pagebreak{}
+%\pagebreak{}
+
+%
+%\section{\textsc{Scientific Activities}}
+%\cvitem{2006 -- 2007\\ Jan \ \ \ \ \ Jul}{Member of the \textit{Lab of Geometric and Algebraic Algorithms} at the Dept. of Informatics and Telecommunications, University of Athens.\\Homepage: {\color{see} \weblink{http://www.di.uoa.gr/\textasciitilde erga}}}
+%\weblink{\texttt{http://www.di.uoa.gr/\textasciitilde erga}}}
+%\cvitem{Sep 2004}{Member of the International Scientific Committee (\texttt{ISC}) at the International Olympiad in Informatics (\texttt{IOI-2004}) that was held in Athens.\\Homepage: {\color{see} \weblink{http://www.ioi2004.org}}}
+
+
+
+
+
+
+%\pagebreak{}
+
+
+
+
+\section{\textsc{Referenties}}
+%\cvitem{\textbf{Operating Systems}}{}
+\cvitem{}{Relevante referenties zijn probleemloos verkrijgbaar op aanvraag.}
+
+%\section{\textsc{Working Experience}}
+%\cvitem{Operating Systems}{All Microsoft\texttrademark\ operating systems, Solaris\texttrademark\ Unix, MacOS, Linux}
+%\cvitem{Programming}{}
+%\cvlistdoubleitem{Procedural}{C, Perl, Pascal, QBasic, Fortran}
+%\cvlistdoubleitem{Object-Oriented}{C++, Java, Object Pascal}
+%\cvlistdoubleitem{Visual}{Visual C++, Visual Basic}
+%\cvlistdoubleitem{Interpreted}{GW-Basic, Logo}
+%\cvlistdoubleitem{Logic}{LPA-Prolog}
+%\cvlistdoubleitem{Functional}{Haskell}
+%\cvlistdoubleitem{Shells-Scripts}{C, Bourne, Korn, bash, z, pk, MS-DOS, VBScript, JavaScript}
+%\cvlistdoubleitem{Web}{HTML}
+%\cvitem{Tools}{}
+%\cvlistdoubleitem{Scientific}{Maple\texttrademark, MatLab\texttrademark, GNUPlot, Graphmat}
+%\cvitem{Data-Base Tools}{Oracle SQLPlus\texttrademark, Microsoft SQLServer\texttrademark}
+%\cvlistdoubleitem{Data-Base}{Oracle SQLPlus\texttrademark, Microsoft SQLServer\texttrademark}
+%\cvitem{Office Automation}{\LaTeX, Microsoft Office\texttrademark}
+%\cvitem{Office Automation}{\LaTeX, Microsoft Office\texttrademark}
+
+%\section{Experience}
+%\cventry{February 2006--\\current}{Maintainer of the a CTAN package}{CTAN}{World}{}{Maintainer of the {\ttfamily moderncv} package, meant to ease the production of beautiful curriculum vit\ae{}s.}
+%\cventry{2005--2006}{Mathematics tutor}{UCL}{Louvain-la-Neuve}{}{Supervision of practical sessions for a mathematical course given to second year engineering students (course \emph{FSAB1104: Numerical Methods}).\hfill{\itshape\color{see}\footnotesize{}See \httplink{www.legat-online.be/b2q1/num}.}}
+%\cventry{2004--2006}{Cultural project leader}{Tchouque-Tschouk Kot}{Louvain-la-Neuve}{}{Leader of a student home with a cultural project, requiring day to day management as well as the organization of public events.\hfill{\itshape\color{see}\footnotesize{}See \httplink{www.organe.be}.}}
+%\cventry{1999--2001}{IMO preselected}{SBPMef}{Wépion}{}{Advanced mathematical training, as Belgian preselected candidate for the International Mathematical Olympiads, selected by the Belgian mathematical society.\hfill{\itshape\color{see}\footnotesize{}See \weblink{imo.math.ca/belgium.html}.}}
+
+
+%\closesection{}
+%\pagebreak{}
+
+
+
+
+
+
+
+%\section{Section with a list}
+%\cvlistitem{Single item.}
+%\cvlistitem{Another single item.}
+%\cvlistdoubleitem{Double\dots{}}{\dots{} item.}
+%\cvlistdoubleitem{Another double\dots{}}{\dots{} item.}
+
+%\section{Section with your own content}\closesection
+%Your content here, inside the normal \LaTeX{} environment. You can use any regular \LaTeX{} command, display mathematics
+%\[e =m\,c^2,\]
+%put some table or figure, \dots
+
+%\emptysection{}
+%\cvitem{Now}{Back to moderncv layout, without making a new section :-)}
+
+
+
+%\section{\textsc{Open source Software}}
+%\cvitem{Academisch}{\textbf{SVM based OCR}\\Op het einde van dit accademiejaar publiceer ik mijn Optical Chartacter Recognition Software onder GPL op onderstaande sites:}
+%\cvitem{}{ \color{see} \weblink{http://www.qt-apps.org/}, \weblink{http://www.gnome-look.org/}, \weblink{http://www.kde-apps.org/} }
+
+%\closesection{}
+%\pagebreak{}
+
+%\section{\textsc{Publicaties}}
+
+%\cvitem{}{\small Gelieve op de merken dat ons OCR-artikel en de meest recente thesistekst pas op het einde van het academiejaar vrijgegeven zullen worden.}
+
+%\cvitem{}{\textsc{Optical Character Recognition}}
+%\cvitem{OCR}{\textit{SVM based Optical Character Recognition for ancient manuscripts}, Vranckx I, Tuytelaers T, and L. Van Gool. \small ~Document image analysis for digital libraries (DAIL) \\\small Op het einde van Juni zal een kopie beschikbaar zijn op\\ 
+%, Proceedings of the 2010 international workshop on Research issues in digital libraries.\\\small Op het einde van Juni zal een kopie beschikbaar zijn op\\ 
+%{\color{see} \weblink{http://users.telenet.be/hosti/ocrDAIL.pdf}}}
+
+%\cvitem{}{\textsc{Thesis teksten}}
+%
+% INRIA
+%
+%\cvitem{ir.}{\textit{Optical Character Recognition for ancient manuscripts}, I. Vranckx.\\\small Op het einde van Juli zal een kopie beschikbaar zijn op\\ 
+%{\color{see} \weblink{http://users.telenet.be/hosti/ocrThesis.pdf}}}
+
+%\cvitem{lic.}{\textit{Reductie van RingArtefacten op $\mu-Ct$ beelden}\\ \small Er is een kopie beschikbaar op\\ 
+%{\color{see} \weblink{http://visielab.ua.ac.be/protected/lictheses/vranckx/thesis05.pdf}}}
+
+%\cvitem{ing.}{\textit{Tristan: data acquisition software for a heat treatment production proces}\\\small Meer informatie is beschikbaar op\\ 
+%{\color{see} \weblink{http://doks.kdg.be/doks/}}}
+
+%
+% Other Articles.
+%
+%\cvitem{}{\textsc{Andere Artikels}}
+%
+% Programming
+%
+%\cvitem{Psychologie}{\textit{De herkenning van getypte tekst: zo goed als opgelost?}, is een vrij `los` geschreven, korte paper waarin we de link tussen optical character recognition en de computationele psychologie verduidelijken. Een kopie is beschikbaar op {\color{see} \weblink{http://users.telenet.be/hosti/psy.pdf}}}
+
+
+%\closesection{}
+%\pagebreak{}
+
+
+%\section{\textsc{References}}%\closesection
+%\cvitem{}{These persons are familiar with my professional qualifications and my character:}
+%\cvitem{}{} % Empty line.
+%
+% Emiris
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Associate Professor Dr. Ioannis Z. Emiris \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%\textbf{Professor Dr. Ioannis Z. Emiris \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%Master thesis supervisor & Phone: & +30-210-727.5105\\
+%Dept. of Informatics and Telecommunications & Fax: & +30-210-727.5114\\
+%University of Athens & Email: & emiris@di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+%\end{tabular}}
+%
+% Koutsoupias
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Professor Dr. Elias Koutsoupias \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } \\
+%Dept. of Informatics and Telecommunications & Phone: & +30-210-727.5122\\
+%University of Athens & Fax: & +30-210-727.5114\\
+%Panepistimiopolis, 15784 Athens, Hellas & Email: & elias@di.uoa.gr \\
+%\end{tabular}}
+%
+% Raptis
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Professor Ioannis Z.~Emiris} & \\
+%Master thesis supervisor & Phone: & +30-210-727.5105\\
+%Dept.~of Informatics and Telecommunications \ & Fax: & +30-210-727.5114\\
+%University of Athens & Email: & emiris [AT] di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+% & \\
+%\textbf{Professor Elias Koutsoupias} & \\
+%Dept.~of Informatics and Telecommunications \ & Phone: & +30-210-727.5122\\
+%University of Athens & Fax: & +30-210-727.5114\\
+%Panepistimiopolis, 15784 Athens, Hellas & Email: & elias [AT] di.uoa.gr \\
+% & \\
+%\end{tabular}}
+%
+% Stamatopoulos
+%
+%\cvitem{}{\begin{tabular}{@{}lll@{}}
+%\textbf{Assistant Professor Dr. Panagiotis Stamatopoulos \ \ } \\
+%Undergraduate thesis supervisor & Phone: & +30-210-727.5202\\
+%Dept. of Informatics and Telecommunications & Fax: & +30-210-727.5214\\
+%University of Athens & Email: & takis@di.uoa.gr \\
+%Panepistimiopolis, 15784 Athens, Hellas \\
+%\end{tabular}}
+
+
+
+% Use the following when references are alone on last page.
+% The following is for use when Elias Koutsoupias can be referenced.:
+%\vspace{14cm}
+
+%%\vspace{15.7cm}
+
+
+
+%%\vspace{13.5cm}
+%%\vspace{13cm}
+%%\vspace{12cm}
+
+%\vspace{8.5cm}
+%\vspace*{\fill}
+%\section{\textsc{Updated}}
+%\cvitem{}{March 29, 2007}
+%\cvitem{}{1 Maart, 2010}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{jdoe_publications}
+
+
+\end{document}
+
+
+%% end of file `diochnos_cv.tex'.
