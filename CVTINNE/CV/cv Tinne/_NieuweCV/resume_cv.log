@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.4.28)  28 APR 2020 14:30
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7400 64-bit) (preloaded format=xelatex 2020.4.28)  28 APR 2020 20:03
 entering extended mode
 **./resume_cv.tex
 (resume_cv.tex
@@ -1092,7 +1092,7 @@ Package rerunfilecheck Info: File `resume_cv.out' has not changed.
 Here is how much of TeX's memory you used:
  31714 strings out of 414218
  618562 string characters out of 2897671
- 1062524 words of memory out of 3000000
+ 1063524 words of memory out of 3000000
  48743 multiletter control sequences out of 15000+200000
  534988 words of font info for 95 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
